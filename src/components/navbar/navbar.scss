@@ -1,0 +1,22 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(34, 34, 34);
+    margin: 0px 50px;
+
+    &>.navlink-container {
+        gap: 50px;
+
+        & .navlink-item {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+
+.drawer-link-item {
+    text-decoration: none;
+    color: black;
+}
